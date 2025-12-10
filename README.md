@@ -9,8 +9,6 @@ This repository contains the official implementation of **Dirac-Equation Synchro
         * nilearn_data/      # Brain dataset processing
             * Brain_dataset.py
             * High_dataset.py
-    * figure1.py
-    * figure2_3.py
     * figure4.py
     * figure5.py
     * DESD_brain.py
@@ -42,15 +40,11 @@ To run the Dirac-equation synchronization experiments, simply use:
 ```
 cd DESD
 
-python figure1.py
-
-python figure2_3.py
-
 python figure4.py
 
 python figure5.py
 ```
-Each script will automatically generate and save the corresponding experimental figures (Figure 1–5) used in the main manuscript, fully reproducing the results shown in the paper.
+Each script will automatically generate and save the corresponding experimental figures used in the main manuscript, fully reproducing the results shown in the paper.
 
 For the real-world hypergraph experiments (high-school social hypergraph and brain functional hypergraph), simply run:
 ```
@@ -61,3 +55,4 @@ python DESD_brain.py
 python DESD_High.py
 ```
 This script automatically loads the empirical datasets and executes all Dirac-equation synchronization analyses used in the paper.
+
